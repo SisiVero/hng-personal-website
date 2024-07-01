@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Fonte family link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>PErsonal website</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <p class="navbar-text" data-testid="slackDisplayName"></p>Chioma Veronica</p>
+    </nav>
+    <!-- Larger screens -->
+    <section class="hero-section">
+      <p class="hero-text">I'm Chioma Veronica,
+         a frontend developer with a strong enthusiasm for creating interesting and user-focused websites. I love transforming concepts into clear, user-friendly digital solutions, and I have a knack for simple design and engaging interfaces.</p>
+      <img class="hero-image" src="./images/me.png" alt="Chioma veronica Picture" width="317" height="581px" />
+    </section>
+    <!-- Smaller screens -->
+    <section class="hero-section-mobile" >
+        <img data-testid="slackProfilePicture" class="hero-image-mobile" src="./images/me.png" alt="Chioma veronica Picture" width="317" height="581px" />
+
+        <p class="hero-text-mobile">I'm Chioma Veronica,
+           a frontend developer with a strong enthusiasm for creating interesting and user-focused websites. I love transforming concepts into clear, user-friendly digital solutions, and I have a knack for simple design and engaging interfaces.</p>
+      </section>
+    <section class="goal-section">
+        <h3 class="goal-header">My career Goal</h3>
+        <p class="goal-text">
+            My objective as a frontend developer is to learn all about contemporary JavaScript frameworks in the
+             next two years, with a special emphasis on React.js and its community. My goal is to establish a solid
+             foundation in the areas of developing dynamic and interactive user interfaces, utilising react hooks for
+              state management, investigating the flexibility of hooks, and skillfully integrating popular libraries.
+               I also want to improve my UI/UX design abilities by using more complex CSS techniques, investigating UI
+                frameworks like Tailwind CSS or Styled Components, and maximising front-end efficiency with tactics 
+                like code splitting and slow loading. My ultimate goal is to produce responsive, accessible, 
+                and high-performance online apps that match both user expectations and industry standards, while 
+                always polishing my skills in frontend development and staying up to date. I aim to achieve this by 
+                regeistering and undergoing intensive training via the
+                 <a href="https://hng.tech/learn" target="_blank">HNG</a> 11 training cohort.
+                  By the end of my training, I hope to build utilable websites like 
+                  <a href="https://keyword.org" target="_blank">Keyword</a> and
+                   <a href="https://scrapeanyweb.site" target="_blank">scrapeanyweb</a>.
+        </p>
+    </section>
+    <footer class="footer">
+      <p class="email">Email: <span data-testid="slackEmail">csusan894@gmail.com</span></p>
+      <p class="time-text">Time: <span class="time" data-testid="currentTimeUTC" id="current-time"></span></p>
+      <p class="day">Day: <span id="current-day" data-testid="currentDay"></span></p>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>

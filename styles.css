@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    border: 0;
+    font-family: "Montserrat", sans-serif;
+    text-align: justify;
+
+}
+a{
+    text-decoration: none;
+    color: #e6c200;
+    font-weight: bold;
+}
+.navbar{
+    background: transparent;
+    padding: 1.5rem;
+    border:2px solid #f0f0f0;
+    text-align: center;
+    margin: 0;
+
+}
+
+.hero-section-mobile{
+    display: none;
+}
+.hero-section{
+    border-bottom:2px solid #b9b8b8;
+    display: flex;
+    gap: 10rem;
+    padding:0  9rem  2rem;
+    color: #333333;
+}
+
+
+.hero-text{
+height: 150px;
+    width: 50%;
+    margin: auto;
+    margin-top: 20rem;
+    line-height: 1.5;
+}
+
+.goal-header{
+    text-align: center;
+    margin-bottom: 1.2rem;
+}
+.goal-section{
+    padding: 5rem;
+
+}
+.goal-text{
+    line-height: 2;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:#f0f0f0;
+    padding: 1.5rem;
+    margin-top: 1rem;
+    font-size: .75em;
+}
+
+.footer p{
+    font-weight: bold;
+}
+.footer span{
+    font-weight: normal;
+}
+
+/* Tablets and smaller screens */
+@media (max-width: 1024px) {
+    .hero-section {
+        padding: 0 5rem 2rem;
+        gap: 5rem;
+    }
+    .goal-section {
+        padding: 3rem;
+    }
+}
+
+/* Mobile devices */
+@media (max-width: 768px) {
+
+    .hero-section{
+        display: none;
+    }
+.hero-section-mobile{
+
+     padding: 0 2rem 2rem;
+     display: flex;
+        gap: 3rem;
+        flex-direction: column;
+        border-bottom:2px solid #b9b8b8;
+
+    }
+    .hero-image-mobile{
+        margin: 0 auto;
+    }
+    .hero-text {
+        width: 100%;
+        margin-top: 10rem;
+    }
+    .goal-section {
+        padding: 2rem;
+    }
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        gap: .75rem;
+        margin: 0;
+    }
+    .footer p,
+    .footer span {
+        text-align: justify;
+    }
+}
+
