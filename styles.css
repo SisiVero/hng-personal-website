@@ -106,6 +106,10 @@ height: 150px;
     .goal-section {
         padding: 2rem;
     }
+    .goal-text{
+        line-height: 1.5;
+        border: 2px solid red;
+    }
     .footer {
         flex-direction: column;
         align-items: center;
