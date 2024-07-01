@@ -108,7 +108,7 @@ height: 150px;
     }
     .goal-text{
         line-height: 1.5;
-        text-align: center;
+        text-align: left;
     }
     .footer {
         flex-direction: column;
